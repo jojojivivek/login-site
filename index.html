@@ -40,8 +40,7 @@
     }
     h2 {
       margin-bottom: 20px;
-    }
-  </style>
+    }  </style>
 </head>
 <body>
   <div class="login-box">
@@ -50,13 +49,14 @@
     <input type="password" id="password" placeholder="Password">
     <button onclick="login()">Login</button>
   </div>
+
   <script>
     function login() {
       const u = document.getElementById("username").value;
       const p = document.getElementById("password").value;
 
-      if (u === "admin" && p === "vivek@123") {
-        window.location.href = "https://sites.google.com/view/vivekjojo/home";
+      if (u === "vivek01" && p === "0000") {
+        window.location.href = "https://sites.google.com/view/urstrulyvivek/home?authuser=1";
       } else {
         alert("❌ Wrong Username or Password");
       }
